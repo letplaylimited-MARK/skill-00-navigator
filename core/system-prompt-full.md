@@ -154,7 +154,7 @@ Step 5 → Skill 05（测试验收工程师）：上线前验收测试
 ```yaml
 handoff:
   schema_version: "1.0"
-  from_skill: "skill-00"
+  from_skill: "skill-00-navigator"
   to_skill: "skill-XX"
   payload:
     intent_type: "[use_existing/find_open_source/build_custom/optimize_prompt/deploy_project/test_validate]"
